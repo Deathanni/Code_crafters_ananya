@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 1em;
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+header .logo img {
+  height: 2em;
+}
+header .bar nav a {
+  text-decoration: none;
+  color: black;
+}
+header .bar nav ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+header .bar nav li {
+  font-size: 1.3rem;
+  margin: 0.25em 2em;
+}
+header .bar nav li :hover {
+  text-decoration: underline;
+  color: coral;
+  font-weight: 500;
+}
+header .right img {
+  margin: 0 1em 0 0;
+  height: 2em;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: row;
+}
+.Hero .image {
+  padding: 5em;
+  align-items: center;
+}
+.Hero .image img {
+  height: 70vh;
+}
+.Hero .Info {
+  padding: 2em;
+}
+.Hero .Info h1 {
+  font-size: 2.8rem;
+}
+.Hero .Info .price {
+  font-size: 1.3em;
+  color: rgb(117, 116, 116);
+}
+.Hero .Info p {
+  color: rgb(71, 71, 71);
+  font-size: 1rem;
+}
+.Hero .Info .EMI {
+  font-size: 1.2rem;
+}
+.Hero .Info .EMI .emi {
+  color: rgb(43, 43, 228);
+}
+.Hero .Info .EMI .sp2 {
+  color: coral;
+  font-weight: 300;
+}
+.Hero .Info .EMI .sp2:hover {
+  color: rgb(105, 62, 186);
+  text-decoration: underline;
+}
+.Hero .Info button {
+  background-color: transparent;
+  border: solid 1px gray;
+  padding: 1em 2em;
+  margin: 0 1em;
+  border-radius: 7%;
+  font-size: 1.1rem;
+  color: black;
+}
+.Hero .Info button:hover {
+  background-color: rgb(59, 59, 59);
+  color: coral;
+}
+.Hero .Info input {
+  background-color: black;
+  font-size: 1.1rem;
+  color: white;
+  padding: 1em 6em;
+  font-weight: 400;
+}
+.Hero .Info input:hover {
+  font-weight: 700;
+  background-color: green;
+}/*# sourceMappingURL=index.css.map */

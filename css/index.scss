@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1em;
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: first baseline;
+        height: fit-content;
+        width: fit-content;
+         img{
+        height: 2em;
+        }
+    }
+    .bar{
+       
+        nav{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            ul{
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                list-style-type: none;
+            }
+            li{
+                font-size: 1.3rem;
+                margin: .25em 2em
+                
+            }
+            li :hover{
+                text-decoration: underline;
+                color: coral;
+                font-weight: 500;
+            }
+        }
+    }
+    .right
+    {
+        img{
+            margin: 0 1em 0 0;
+            height: 2em;
+        }
+    }
+}
+.Hero{
+    display: flex;
+    flex-direction: row;
+    .image{
+        padding: 5em;
+        align-items: center;
+        img{
+            height: 70vh;
+        }
+    }
+    .Info{
+        padding: 2em;
+        h1{
+            font-size: 2.8rem;
+        }
+        .price{
+            font-size: 1.3em;
+            color: rgb(117, 116, 116);
+        }
+        p{
+            color: rgb(71, 71, 71);
+            font-size: 1rem;
+        }
+        .EMI{
+            font-size: 1.2rem;
+            .emi{
+                color: rgb(43, 43, 228);
+            }
+            .sp2{
+                color: coral;
+                font-weight: 300;
+            }
+            .sp2:hover{
+                color: rgb(105, 62, 186);
+                text-decoration: underline;
+            }
+        }
+        button{
+            background-color: transparent;
+            border:solid 1px gray;
+            padding: 1em 2em;
+            margin: 0 1em;
+            border-radius: 7%;
+            font-size: 1.1rem;
+            color: black;
+        }
+        button:hover{
+            background-color: rgb(59, 59, 59);
+            color: coral;
+        }
+        input{
+            background-color: black;
+            font-size: 1.1rem;
+            color: white;
+            padding: 1em 6em;
+            font-weight: 400;
+        }
+        input:hover{
+            font-weight: 700;
+            background-color: green;
+        }
+    }
+}
